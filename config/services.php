@@ -35,4 +35,18 @@ return [
         'secret' => env('STRIPE_SECRET'),
     ],
 
+    //socialite: github
+    'github' => [
+        'client_id' => env('GITHUB_CLIENT_ID'),             // Your Github Client ID
+        'client_server' => env('GITHUB_CLIENT_SECRET'),     // Your Github Client Secret
+        'redirect' => '/login/github/callback',
+    ],
+
+    //socialite: facebook
+    'github' => [
+        'client_id' => env('FACEBOOK_CLIENT_ID'),             // Your Facebook Client ID
+        'client_server' => env('FACEBOOK_CLIENT_SECRET'),     // Your Facebook Client Secret
+        'redirect' => '/login/facebook/callback',
+    ],
+
 ];
