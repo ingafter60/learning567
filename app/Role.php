@@ -26,5 +26,5 @@ class Role extends Model
 {
     const ADMIN    = 1;
     const TEACHER  = 2;
-    const STUDENET = 3;
+    const STUDENT = 3;
 }
